@@ -5,6 +5,7 @@
 // *NOTE* use the 'arr' parameter
 function first(arr){
     // your code here
+    return 
     
 }
 

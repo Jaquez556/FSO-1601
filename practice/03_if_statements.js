@@ -5,13 +5,14 @@
 // 21 or greater; otherwise, returns 'juice'
 // *NOTE* some of the code is written for you
 function canDrink(age){
-    if (age >= 21) {
+
         // your code here
-        
-    } else {
-        // your code here
-       
-    }
+
+         if (age >= 21)
+            return "beer"
+        else if (age < 21)
+            return "juice"
+
 }
 
 // #2 use an if statement to complete the function
@@ -19,6 +20,12 @@ function canDrink(age){
 // otherwise return 'can't vote'
 function canVote(age){
     //your code here
+
+         if (age >= 18)
+            return "can vote"
+        else if (age < 18)
+            return "can't vote"
+
     
 }
 
@@ -29,7 +36,16 @@ function canVote(age){
 // if the age is 18 or older return 'can drive anytime'
 function canDrive(age){
     // your code here
-   
+
+         if (age < 15)
+             return "no driving"  
+        else if (age == 15)
+           return "learners permit"
+       else if (age == 16 || age == 17)
+            return  "can drive during day"
+       else if (age >= 18)
+            return "can drive anytime"
+
 }
 
 // #4 complete the function using an if statement
@@ -38,6 +54,12 @@ function canDrive(age){
 // and return 'weekend' if day is equal to 'Saturday' or 'Sunday'
 function week(day){
     // your code here
+    if (day == "Monday" || day == "Tuesday" || day == "Wednesday" || day == "Thursday") 
+        return "weekday"
+         if (day == "Friday")
+         return "almost weekend"
+        if (day == "Saturday" || day == "Sunday")
+         return "weekend"
 }
 
 
